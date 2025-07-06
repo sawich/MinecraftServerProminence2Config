@@ -1,4 +1,4 @@
- {
+{
   "schema_version": 1,
   "failed_reloads_per_session": 3,
   "default_packs": [
@@ -74,7 +74,7 @@
       "hidden": true
     },
     "file/Repurposed_Structures-VillagersPlus_v1.zip": {
-       "hidden": true
+      "hidden": true
     },
     "file/Repurposed_Structures-Chef's_Delight_v1.zip": {
       "hidden": true

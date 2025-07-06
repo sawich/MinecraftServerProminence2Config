@@ -1,4 +1,4 @@
 {
-	// Declares whether the villager entity model is shown in the recipe UI.
-	enable3DVillagerModelInRecipes: true
+  // Declares whether the villager entity model is shown in the recipe UI.
+  enable3DVillagerModelInRecipes: true,
 }

@@ -11,9 +11,7 @@
   "held_item_arm_adjustments": [
     {
       "comment1": "example1",
-      "filters": [
-        "themodid:someitem"
-      ],
+      "filters": ["themodid:someitem"],
       "adjustment": {
         "matchingHandX": "-90",
         "matchingHandY": "DISABLED",
@@ -22,18 +20,14 @@
     },
     {
       "comment1": "example2",
-      "filters": [
-        "themodid:ingot_*"
-      ],
+      "filters": ["themodid:ingot_*"],
       "adjustment": {
         "matchingHandX": "45"
       }
     },
     {
       "comment1": "example3",
-      "filters": [
-        "*_wacky_tornado_item_*"
-      ],
+      "filters": ["*_wacky_tornado_item_*"],
       "adjustment": {
         "matchingHandX": "DISABLED",
         "matchingHandY": "DISABLED",
@@ -44,9 +38,7 @@
       }
     },
     {
-      "filters": [
-        "artifacts:umbrella"
-      ],
+      "filters": ["artifacts:umbrella"],
       "adjustment": {
         "matchingHandX": "DISABLED",
         "matchingHandY": "DISABLED",
@@ -54,9 +46,7 @@
       }
     },
     {
-      "filters": [
-        "tacz:modern_kinetic_gun"
-      ],
+      "filters": ["tacz:modern_kinetic_gun"],
       "adjustment": {
         "matchingHandX": "DISABLED",
         "matchingHandY": "DISABLED",
@@ -68,7 +58,10 @@
     {
       "only_if_mod_installed": "notenoughanimations",
       "filters": [
-        "minecraft:compass", "minecraft:recovery_compass", "minecraft:torch", "minecraft:soul_torch"
+        "minecraft:compass",
+        "minecraft:recovery_compass",
+        "minecraft:torch",
+        "minecraft:soul_torch"
       ],
       "adjustment": {
         "matchingHandX": "DISABLED",
@@ -78,9 +71,7 @@
     },
     {
       "only_if_mod_installed": "notenoughanimations",
-      "filters": [
-        "minecraft:filled_map"
-      ],
+      "filters": ["minecraft:filled_map"],
       "adjustment": {
         "matchingHandX": "DISABLED",
         "matchingHandY": "DISABLED",

@@ -1,4 +1,4 @@
 {
-	"enableNecromancerSpecialisation": true,
-	"signatureNecromancerSummoningRitualCooldown": 120
+  enableNecromancerSpecialisation: true,
+  signatureNecromancerSummoningRitualCooldown: 120,
 }

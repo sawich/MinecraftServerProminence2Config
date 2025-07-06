@@ -13,8 +13,6 @@
     "sound": "gravel"
   },
   "predicate": {
-    "items": [
-      "minecraft:dirt"
-    ]
+    "items": ["minecraft:dirt"]
   }
 }

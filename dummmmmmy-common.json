@@ -1,12 +1,8 @@
 {
   "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config",
   "scarecrow": {
-    "mobs_whitelist": [
-      ""
-    ],
-    "mobs_blacklist": [
-      ""
-    ],
+    "mobs_whitelist": [""],
+    "mobs_blacklist": [""],
     "scare_radius": 12
   },
   "general": {

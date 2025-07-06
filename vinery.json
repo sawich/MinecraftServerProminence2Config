@@ -24,10 +24,7 @@
     },
     "basket": {
       "blacklist": {
-        "basketBlacklist": [
-          "minecraft:shulker_box",
-          "vinery:basket"
-        ]
+        "basketBlacklist": ["minecraft:shulker_box", "vinery:basket"]
       }
     }
   },

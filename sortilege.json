@@ -131,8 +131,7 @@
     // Should Antidotes be registered as items
     "enable": false,
     // A list of potion effects for which Antidotes don't get registered
-    "antidote_blacklist": [
-    ],
+    "antidote_blacklist": [],
     "antidote_stack_size": 4
   },
 

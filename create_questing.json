@@ -1,9 +1,6 @@
 {
   "enable_theme_only_in_create_chapters": true,
-  "create_chapter_names": [
-    "Create",
-    "Blueprint"
-  ],
+  "create_chapter_names": ["Create", "Blueprint"],
   "blueprint_background_scale": 0.5,
   "blueprint_background_opacity": 0.9,
   "blueprint_background_overlay_red": 255,

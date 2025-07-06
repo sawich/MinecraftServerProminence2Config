@@ -59,9 +59,7 @@
       "enigmaticlegacy",
       "beautify"
     ],
-    "id_whitelist": [
-      ""
-    ],
+    "id_whitelist": [""],
     "falling_lanterns": "ON"
   },
   "bell": {

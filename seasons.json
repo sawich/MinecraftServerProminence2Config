@@ -9,14 +9,10 @@
     "isSeasonLocked": false,
     "lockedSeason": "SPRING"
   },
-  "dimensionAllowlist": [
-    "minecraft:overworld"
-  ],
+  "dimensionAllowlist": ["minecraft:overworld"],
   "doTemperatureChanges": true,
   "shouldSnowyBiomesMeltInSummer": true,
-  "biomeDenylist": [
-    "terralith:glacial_chasm"
-  ],
+  "biomeDenylist": ["terralith:glacial_chasm"],
   "isSeasonTiedWithSystemTime": false,
   "isInNorthHemisphere": true,
   "isSeasonMessingCrops": true,

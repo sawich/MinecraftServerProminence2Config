@@ -1,7 +1,5 @@
 {
-	"exclusive": {
-		"bidirectional": [
-
-		]
-	}
+  "exclusive": {
+    "bidirectional": []
+  }
 }

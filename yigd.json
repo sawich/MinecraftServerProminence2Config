@@ -13,12 +13,8 @@
       "canLoseSoulbound": false,
       "includeModdedInventories": true
     },
-    "vanishingEnchantments": [
-      "minecraft:vanishing_curse"
-    ],
-    "soulboundEnchantments": [
-      "yigd:soulbound"
-    ],
+    "vanishingEnchantments": ["minecraft:vanishing_curse"],
+    "soulboundEnchantments": ["yigd:soulbound"],
     "loseSoulboundLevelOnDeath": false,
     "vanishingSlots": [],
     "soulboundSlots": [],

@@ -89,17 +89,13 @@
   "itemTagInheritance": {},
   "blockTagInheritanceMode": "ALLOW",
   "blockTagInheritance": {},
-  "ignoredTags": [
-    "c:copper_blocks"
-  ],
+  "ignoredTags": ["c:copper_blocks"],
   "ignoredItems": [
     "betterend:thallasium_ingot",
     "betternether:cincinnasite_ingot",
     "travelersbackpack:standard"
   ],
-  "ignoredRecipeTypes": [
-    "cucumber:shaped_tag"
-  ],
+  "ignoredRecipeTypes": ["cucumber:shaped_tag"],
   "ignoredRecipes": [],
   "itemsHidingJeiRei": true
 }

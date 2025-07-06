@@ -8,7 +8,7 @@ JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mr
 to make editing this file much easier.
 */
 {
-	/* A map of blocks that specifies what the "old" broken block is and what its "new" functional block is.
+  /* A map of blocks that specifies what the "old" broken block is and what its "new" functional block is.
 	   Example:
 	   	"swapper": {
 	   	          Broken ID             Valid ID
@@ -16,5 +16,5 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-	"id_remapper": { }
+  id_remapper: {},
 }

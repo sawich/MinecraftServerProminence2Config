@@ -51,16 +51,10 @@
   "line_color": "200,0,200,200",
   "paste_bb_color": "80,40,0,255",
   "block_color": "255,255,255,255",
-  "str_pickaxe_allowed": [
-    "minecraft:sea_lantern"
-  ],
+  "str_pickaxe_allowed": ["minecraft:sea_lantern"],
   "str_axe_allowed": [],
   "str_shovel_allowed": [],
-  "str_hoe_allowed": [
-    "minecraft:moss_block"
-  ],
-  "str_shears_allowed": [
-    "minecraft:moss_block"
-  ],
+  "str_hoe_allowed": ["minecraft:moss_block"],
+  "str_shears_allowed": ["minecraft:moss_block"],
   "str_denied": []
 }

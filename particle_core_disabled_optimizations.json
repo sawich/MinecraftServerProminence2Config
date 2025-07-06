@@ -7,7 +7,5 @@
     "LIGHTMAP": "[Impact: Medium] Disables mixins related to light map caching (ParticleManagerCachedLightMixin, ParticleMixin)",
     "POTION": "[Impact: Low] Disables mixins related to potion particle disabling (LivingEntityMixin)"
   },
-  "disableOptimizations": [
-    "NONE"
-  ]
+  "disableOptimizations": ["NONE"]
 }

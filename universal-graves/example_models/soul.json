@@ -7,97 +7,42 @@
       "display_item": "minecraft:player_head",
       "item_model_transformation": "FIXED",
       "transformation": {
-        "translation": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "left_rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          0.8,
-          0.8,
-          0.8
-        ],
-        "right_rotation": [
-          -0.0,
-          -0.0,
-          -0.0,
-          1.0
-        ]
+        "translation": [0.0, 0.0, 0.0],
+        "left_rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [0.8, 0.8, 0.8],
+        "right_rotation": [-0.0, -0.0, -0.0, 1.0]
       },
       "billboard": "center",
       "view_range": 1.0,
       "shadow_radius": 0.0,
       "shadow_strength": 0.0,
-      "culling": [
-        2.0,
-        2.0
-      ],
+      "culling": [2.0, 2.0],
       "glow_color": -1,
-      "tags": [
-        "graves:if_protected",
-        "graves:player_head"
-      ],
+      "tags": ["graves:if_protected", "graves:player_head"],
       "rotate_position": true,
       "rotate_yaw": true,
-      "position": [
-        0.0,
-        0.0,
-        0.0
-      ]
+      "position": [0.0, 0.0, 0.0]
     },
     {
       "type": "ITEM",
       "display_item": "minecraft:skeleton_skull",
       "item_model_transformation": "FIXED",
       "transformation": {
-        "translation": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "left_rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          0.8,
-          0.8,
-          0.8
-        ],
-        "right_rotation": [
-          -0.0,
-          -0.0,
-          -0.0,
-          1.0
-        ]
+        "translation": [0.0, 0.0, 0.0],
+        "left_rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [0.8, 0.8, 0.8],
+        "right_rotation": [-0.0, -0.0, -0.0, 1.0]
       },
       "billboard": "center",
       "view_range": 1.0,
       "shadow_radius": 0.0,
       "shadow_strength": 0.0,
-      "culling": [
-        2.0,
-        2.0
-      ],
+      "culling": [2.0, 2.0],
       "glow_color": -1,
-      "tags": [
-        "graves:if_unprotected"
-      ],
+      "tags": ["graves:if_unprotected"],
       "rotate_position": true,
       "rotate_yaw": true,
-      "position": [
-        0.0,
-        0.0,
-        0.0
-      ]
+      "position": [0.0, 0.0, 0.0]
     },
     {
       "type": "PARTICLE",
@@ -117,11 +62,7 @@
       "tags": [],
       "rotate_position": true,
       "rotate_yaw": true,
-      "position": [
-        0.0,
-        0.0,
-        0.0
-      ]
+      "position": [0.0, 0.0, 0.0]
     },
     {
       "type": "ITEM",
@@ -134,54 +75,25 @@
       },
       "item_model_transformation": "FIXED",
       "transformation": {
-        "translation": [
-          0.0,
-          -0.44,
-          0.3
-        ],
-        "left_rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          0.35,
-          0.35,
-          0.1
-        ],
-        "right_rotation": [
-          -0.0,
-          -0.0,
-          -0.0,
-          1.0
-        ]
+        "translation": [0.0, -0.44, 0.3],
+        "left_rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [0.35, 0.35, 0.1],
+        "right_rotation": [-0.0, -0.0, -0.0, 1.0]
       },
       "billboard": "center",
       "view_range": 0.2,
       "shadow_radius": 0.0,
       "shadow_strength": 0.0,
-      "culling": [
-        2.0,
-        2.0
-      ],
+      "culling": [2.0, 2.0],
       "glow_color": -1,
-      "tags": [
-        "graves:payment_required"
-      ],
+      "tags": ["graves:payment_required"],
       "rotate_position": true,
       "rotate_yaw": true,
-      "position": [
-        0.0,
-        0.0,
-        0.0
-      ]
+      "position": [0.0, 0.0, 0.0]
     },
     {
       "type": "TEXT",
-      "text": [
-        "<yellow>${cost}"
-      ],
+      "text": ["<yellow>${cost}"],
       "text_width": -1,
       "text_background": -1,
       "text_opacity": -1,
@@ -190,48 +102,21 @@
       "text_default_background": true,
       "text_alignment": "center",
       "transformation": {
-        "translation": [
-          0.0,
-          -0.31,
-          0.3
-        ],
-        "left_rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          0.35,
-          0.35,
-          0.35
-        ],
-        "right_rotation": [
-          -0.0,
-          -0.0,
-          -0.0,
-          1.0
-        ]
+        "translation": [0.0, -0.31, 0.3],
+        "left_rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [0.35, 0.35, 0.35],
+        "right_rotation": [-0.0, -0.0, -0.0, 1.0]
       },
       "billboard": "center",
       "view_range": 0.2,
       "shadow_radius": 0.0,
       "shadow_strength": 0.0,
-      "culling": [
-        2.0,
-        2.0
-      ],
+      "culling": [2.0, 2.0],
       "glow_color": -1,
-      "tags": [
-        "graves:payment_required"
-      ],
+      "tags": ["graves:payment_required"],
       "rotate_position": true,
       "rotate_yaw": true,
-      "position": [
-        0.0,
-        0.0,
-        0.0
-      ]
+      "position": [0.0, 0.0, 0.0]
     },
     {
       "type": "TEXT",
@@ -241,16 +126,11 @@
         "<gray><lang:'text.graves.items_xp':'<white>${item_count}':'<white>${xp}'>",
         {
           "text": "<blue><lang:'text.graves.protected_time':'<white>${protection_time}'><r>",
-          "tags": [
-            "graves:if_protected",
-            "graves:has_protection_timer"
-          ]
+          "tags": ["graves:if_protected", "graves:has_protection_timer"]
         },
         {
           "text": "<red><lang:'text.graves.break_time':'<white>${break_time}'>",
-          "tags": [
-            "graves:has_breaking_timer"
-          ]
+          "tags": ["graves:has_breaking_timer"]
         }
       ],
       "text_width": 9999,
@@ -261,28 +141,10 @@
       "text_default_background": true,
       "text_alignment": "center",
       "transformation": {
-        "translation": [
-          0.0,
-          0.25,
-          0.0
-        ],
-        "left_rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          0.4,
-          0.4,
-          0.4
-        ],
-        "right_rotation": [
-          -0.0,
-          -0.0,
-          -0.0,
-          1.0
-        ]
+        "translation": [0.0, 0.25, 0.0],
+        "left_rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [0.4, 0.4, 0.4],
+        "right_rotation": [-0.0, -0.0, -0.0, 1.0]
       },
       "billboard": "center",
       "brightness": {
@@ -292,30 +154,16 @@
       "view_range": 0.5,
       "shadow_radius": 0.0,
       "shadow_strength": 0.0,
-      "culling": [
-        2.0,
-        2.0
-      ],
+      "culling": [2.0, 2.0],
       "glow_color": -1,
-      "tags": [
-        "graves:if_not_visual"
-      ],
+      "tags": ["graves:if_not_visual"],
       "rotate_position": true,
       "rotate_yaw": true,
-      "position": [
-        0.0,
-        0.0,
-        0.0
-      ]
+      "position": [0.0, 0.0, 0.0]
     },
     {
       "type": "TEXT",
-      "text": [
-        "${text_1}",
-        "${text_2}",
-        "${text_3}",
-        "${text_4}"
-      ],
+      "text": ["${text_1}", "${text_2}", "${text_3}", "${text_4}"],
       "text_width": 9999,
       "text_background": -1,
       "text_opacity": -1,
@@ -324,28 +172,10 @@
       "text_default_background": true,
       "text_alignment": "center",
       "transformation": {
-        "translation": [
-          0.0,
-          0.25,
-          0.0
-        ],
-        "left_rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          0.4,
-          0.4,
-          0.4
-        ],
-        "right_rotation": [
-          -0.0,
-          -0.0,
-          -0.0,
-          1.0
-        ]
+        "translation": [0.0, 0.25, 0.0],
+        "left_rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [0.4, 0.4, 0.4],
+        "right_rotation": [-0.0, -0.0, -0.0, 1.0]
       },
       "billboard": "center",
       "brightness": {
@@ -355,22 +185,12 @@
       "view_range": 0.5,
       "shadow_radius": 0.0,
       "shadow_strength": 0.0,
-      "culling": [
-        2.0,
-        2.0
-      ],
+      "culling": [2.0, 2.0],
       "glow_color": -1,
-      "tags": [
-        "graves:if_player_made",
-        "graves:if_visual"
-      ],
+      "tags": ["graves:if_player_made", "graves:if_visual"],
       "rotate_position": true,
       "rotate_yaw": true,
-      "position": [
-        0.0,
-        0.0,
-        0.0
-      ]
+      "position": [0.0, 0.0, 0.0]
     },
     {
       "type": "TEXT",
@@ -386,28 +206,10 @@
       "text_default_background": true,
       "text_alignment": "center",
       "transformation": {
-        "translation": [
-          0.0,
-          0.25,
-          0.0
-        ],
-        "left_rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          0.4,
-          0.4,
-          0.4
-        ],
-        "right_rotation": [
-          -0.0,
-          -0.0,
-          -0.0,
-          1.0
-        ]
+        "translation": [0.0, 0.25, 0.0],
+        "left_rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [0.4, 0.4, 0.4],
+        "right_rotation": [-0.0, -0.0, -0.0, 1.0]
       },
       "billboard": "center",
       "brightness": {
@@ -417,22 +219,12 @@
       "view_range": 0.5,
       "shadow_radius": 0.0,
       "shadow_strength": 0.0,
-      "culling": [
-        2.0,
-        2.0
-      ],
+      "culling": [2.0, 2.0],
       "glow_color": -1,
-      "tags": [
-        "graves:if_visual",
-        "graves:if_not_player_made"
-      ],
+      "tags": ["graves:if_visual", "graves:if_not_player_made"],
       "rotate_position": true,
       "rotate_yaw": true,
-      "position": [
-        0.0,
-        0.0,
-        0.0
-      ]
+      "position": [0.0, 0.0, 0.0]
     }
   ]
 }

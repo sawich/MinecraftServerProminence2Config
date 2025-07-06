@@ -1,7 +1,5 @@
 {
-  "description": [
-    "TEST"
-  ],
+  "description": ["TEST"],
   "variables": {
     "sharpness": {
       "type": "gimm1q:enchantment",

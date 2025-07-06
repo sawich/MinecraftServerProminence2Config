@@ -103,10 +103,7 @@
       "weight": 1
     },
     "weapons_one_handed_tier_2": {
-      "ids": [
-        "paladins:netherite_holy_wand",
-        "paladins:diamond_mace"
-      ],
+      "ids": ["paladins:netherite_holy_wand", "paladins:diamond_mace"],
       "chance": 0.3,
       "bonus_roll_chance": 1.2,
       "weight": 1
@@ -137,9 +134,7 @@
       "weapons_two_handed_tier_2_enchanted",
       "armor_tier_2"
     ],
-    "minecraft:chests/underwater_ruin_small": [
-      "weapons_one_handed_tier_1"
-    ],
+    "minecraft:chests/underwater_ruin_small": ["weapons_one_handed_tier_1"],
     "minecraft:chests/woodland_mansion": [
       "weapons_one_handed_tier_1",
       "armor_tier_1_enchanted"
@@ -148,55 +143,33 @@
       "weapons_two_handed_tier_2_enchanted",
       "armor_tier_2"
     ],
-    "minecraft:chests/shipwreck_supply": [
-      "armor_tier_1"
-    ],
-    "minecraft:chests/nether_bridge": [
-      "weapons_two_handed_tier_2"
-    ],
+    "minecraft:chests/shipwreck_supply": ["armor_tier_1"],
+    "minecraft:chests/nether_bridge": ["weapons_two_handed_tier_2"],
     "minecraft:chests/underwater_ruin_big": [
       "weapons_one_handed_tier_1",
       "armor_tier_1_enchanted"
     ],
-    "minecraft:chests/pillager_outpost": [
-      "weapons_one_handed_tier_1"
-    ],
+    "minecraft:chests/pillager_outpost": ["weapons_one_handed_tier_1"],
     "minecraft:chests/simple_dungeon": [
       "weapons_one_handed_tier_1",
       "armor_tier_1_enchanted"
     ],
-    "minecraft:chests/ruined_portal": [
-      "weapons_golden"
-    ],
-    "minecraft:chests/desert_pyramid": [
-      "weapons_one_handed_tier_1"
-    ],
+    "minecraft:chests/ruined_portal": ["weapons_golden"],
+    "minecraft:chests/desert_pyramid": ["weapons_one_handed_tier_1"],
     "minecraft:chests/underwater_ruin_big.json": [
       "weapons_one_handed_tier_1",
       "armor_tier_1_enchanted"
     ],
-    "minecraft:chests/bastion_bridge": [
-      "weapons_one_handed_tier_1"
-    ],
-    "minecraft:chests/jungle_temple": [
-      "weapons_one_handed_tier_1"
-    ],
+    "minecraft:chests/bastion_bridge": ["weapons_one_handed_tier_1"],
+    "minecraft:chests/jungle_temple": ["weapons_one_handed_tier_1"],
     "minecraft:chests/ancient_city": [
       "weapons_two_handed_tier_2_enchanted",
       "armor_tier_2"
     ],
-    "minecraft:chests/stronghold_corridor": [
-      "armor_tier_1"
-    ],
-    "minecraft:chests/stronghold_crossing": [
-      "weapons_one_handed_tier_1"
-    ],
-    "minecraft:chests/spawn_bonus_chest": [
-      "weapons_tier_0"
-    ],
-    "minecraft:chests/igloo_chest": [
-      "weapons_tier_0"
-    ],
+    "minecraft:chests/stronghold_corridor": ["armor_tier_1"],
+    "minecraft:chests/stronghold_crossing": ["weapons_one_handed_tier_1"],
+    "minecraft:chests/spawn_bonus_chest": ["weapons_tier_0"],
+    "minecraft:chests/igloo_chest": ["weapons_tier_0"],
     "minecraft:chests/stronghold_library": [
       "weapons_two_handed_tier_2_enchanted",
       "armor_tier_2"
