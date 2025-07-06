@@ -8,11 +8,11 @@ JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mr
 to make editing this file much easier.
 */
 {
-	// Generates all block states for all blocks in the registry.
-	"generate_all_known_states": false,
-	// Whether blocks are replaced in existing chunks.
-	"retro_gen": true,
-	/* A map of states that specifies what the "old" block state is and what its "new" block state is.
+  // Generates all block states for all blocks in the registry.
+  generate_all_known_states: false,
+  // Whether blocks are replaced in existing chunks.
+  retro_gen: true,
+  /* A map of states that specifies what the "old" block state is and what its "new" block state is.
 	   See "known_states" folder("generate_all_known_states" must be set to true in this config) to see all known block states available for all blocks available in the registry.
 	   Example:
 	    "state_swapper": [
@@ -76,41 +76,41 @@ to make editing this file much easier.
 	    	}
 	    ]
 	*/
-	"state_swapper": [],
-	/* A map of blocks that specifies what the "old" block is and what its "new" block is.
+  state_swapper: [],
+  /* A map of blocks that specifies what the "old" block is and what its "new" block is.
 	   Example:
 	   	"swapper": {
 	   		"minecraft:coarse_dirt": "minecraft:dirt",
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-	"swapper": {
-		"modern_industrialization:tin_ore": "techreborn:tin_ore",
-        "modern_industrialization:deepslate_tin_ore": "techreborn:deepslate_tin_ore",
-        "modern_industrialization:lead_ore": "techreborn:lead_ore",
-        "modern_industrialization:deepslate_lead_ore": "techreborn:deepslate_lead_ore",
-        "modern_industrialization:bauxite_ore": "techreborn:bauxite_ore",
-        "modern_industrialization:deepslate_bauxite_ore": "techreborn:deepslate_bauxite_ore",
-        "modern_industrialization:iridium_ore": "techreborn:iridium_ore",
-        "modern_industrialization:deepslate_iridium_ore": "techreborn:deepslate_iridium_ore",
-        "techreborn:deepslate_tungsten_ore": "modern_industrialization:deepslate_tungsten_ore"
-        "modern_industrialization:salt_ore": "bewitchment:salt_ore",
-        "modern_industrialization:deepslate_salt_ore": "bewitchment:deepslate_salt_ore",
-        "indrev:tin_ore": "techreborn:tin_ore",
-        "indrev:deepslate_tin_ore": "techreborn:deepslate_tin_ore",
-        "indrev:silver_ore": "techreborn:silver_ore",
-        "indrev:deepslate_silver_ore": "techreborn:deepslate_silver_ore",
-        "bewitchment:silver_ore": "techreborn:silver_ore",
-        "bewitchment:deepslate_silver_ore": "techreborn:deepslate_silver_ore",
-        "croptopia:salt_ore": "minecraft:grass_block",
-        "modern_industrialization:replicator": "minecraft:air",
-        "botania:enchanter": "minecraft:lapis_block",
-        "powah:energy_cable_nitro": "indrev:cable_mk4",
-        "powah:energy_cable_spirited": "indrev:cable_mk3",
-        "powah:energy_cable_niotic": "indrev:cable_mk3",
-        "powah:energy_cable_blazing": "indrev:cable_mk2",
-        "powah:energy_cable_hardened": "indrev:cable_mk2",
-        "powah:energy_cable_basic": "indrev:cable_mk1",
-        "powah:energy_cable_starter": "indrev:cable_mk1"
-	}
+  swapper: {
+    "modern_industrialization:tin_ore": "techreborn:tin_ore",
+    "modern_industrialization:deepslate_tin_ore": "techreborn:deepslate_tin_ore",
+    "modern_industrialization:lead_ore": "techreborn:lead_ore",
+    "modern_industrialization:deepslate_lead_ore": "techreborn:deepslate_lead_ore",
+    "modern_industrialization:bauxite_ore": "techreborn:bauxite_ore",
+    "modern_industrialization:deepslate_bauxite_ore": "techreborn:deepslate_bauxite_ore",
+    "modern_industrialization:iridium_ore": "techreborn:iridium_ore",
+    "modern_industrialization:deepslate_iridium_ore": "techreborn:deepslate_iridium_ore",
+    "techreborn:deepslate_tungsten_ore": "modern_industrialization:deepslate_tungsten_ore",
+    "modern_industrialization:salt_ore": "bewitchment:salt_ore",
+    "modern_industrialization:deepslate_salt_ore": "bewitchment:deepslate_salt_ore",
+    "indrev:tin_ore": "techreborn:tin_ore",
+    "indrev:deepslate_tin_ore": "techreborn:deepslate_tin_ore",
+    "indrev:silver_ore": "techreborn:silver_ore",
+    "indrev:deepslate_silver_ore": "techreborn:deepslate_silver_ore",
+    "bewitchment:silver_ore": "techreborn:silver_ore",
+    "bewitchment:deepslate_silver_ore": "techreborn:deepslate_silver_ore",
+    "croptopia:salt_ore": "minecraft:grass_block",
+    "modern_industrialization:replicator": "minecraft:air",
+    "botania:enchanter": "minecraft:lapis_block",
+    "powah:energy_cable_nitro": "indrev:cable_mk4",
+    "powah:energy_cable_spirited": "indrev:cable_mk3",
+    "powah:energy_cable_niotic": "indrev:cable_mk3",
+    "powah:energy_cable_blazing": "indrev:cable_mk2",
+    "powah:energy_cable_hardened": "indrev:cable_mk2",
+    "powah:energy_cable_basic": "indrev:cable_mk1",
+    "powah:energy_cable_starter": "indrev:cable_mk1",
+  },
 }

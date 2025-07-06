@@ -93,7 +93,13 @@
   "ignoredItems": [
     "betterend:thallasium_ingot",
     "betternether:cincinnasite_ingot",
-    "travelersbackpack:standard"
+    "travelersbackpack:standard",
+    "indrev:nikolite_dust",
+    "indrev:nikolite_ore",
+    "indrev:deepslate_nikolite_ore",
+    "indrev:nikolite_ingot",
+    "indrev:enriched_nikolite_dust",
+    "indrev:enriched_nikolite_ingot"
   ],
   "ignoredRecipeTypes": ["cucumber:shaped_tag"],
   "ignoredRecipes": [],

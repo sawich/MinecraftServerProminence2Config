@@ -132,17 +132,6 @@
         "value": 40
       }
     },
-    "sortilege:generic.staff_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 512,
-        "value": 512
-      }
-    },
     "porting_lib:step_height_addition": {
       "enabled": false,
       "min": {
@@ -163,6 +152,17 @@
       "max": {
         "default": 5,
         "value": 5
+      }
+    },
+    "sortilege:generic.staff_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 512,
+        "value": 512
       }
     },
     "eternal_attributes:corruption_resistance": {
