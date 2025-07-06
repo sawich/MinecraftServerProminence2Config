@@ -1,21 +1,21 @@
 {
-  lichConfig: {
-    eternalNighttime: true,
-    experienceDrop: 500,
-    idleHealingPerTick: 0.20000000298023224,
-    health: 750.0,
-    missile: {
-      statusEffectId: "minecraft:slowness",
-      statusEffectDuration: 100,
-      statusEffectPotency: 2,
-      damage: 9.0,
+  "lichConfig": {
+    "eternalNighttime": true,
+    "experienceDrop": 500,
+    "idleHealingPerTick": 0.20000000298023224,
+    "health": 750.0,
+    "missile": {
+      "statusEffectId": "minecraft:slowness",
+      "statusEffectDuration": 100,
+      "statusEffectPotency": 2,
+      "damage": 9.0
     },
-    comet: {
-      explosionStrength: 4.0,
+    "comet": {
+      "explosionStrength": 4.0
     },
-    summonMechanic: {
-      isEnabled: true,
-      entitiesThatCountToSummonCounter: [
+    "summonMechanic": {
+      "isEnabled": true,
+      "entitiesThatCountToSummonCounter": [
         "minecraft:zombie",
         "minecraft:skeleton",
         "minecraft:drowned",
@@ -29,38 +29,38 @@
         "minecraft:zoglin",
         "minecraft:zombie_horse",
         "minecraft:zombie_villager",
-        "minecraft:zombified_piglin",
+        "minecraft:zombified_piglin"
       ],
-      numEntitiesKilledToDropSoulStar: 50,
-    },
+      "numEntitiesKilledToDropSoulStar": 50
+    }
   },
-  obsidilithConfig: {
-    health: 2000.0,
-    armor: 20.0,
-    attack: 36.0,
-    idleHealingPerTick: 0.5,
-    experienceDrop: 100,
-    spawnPillarOnDeath: true,
-    anvilAttackExplosionStrength: 4.0,
+  "obsidilithConfig": {
+    "health": 2000.0,
+    "armor": 20.0,
+    "attack": 36.0,
+    "idleHealingPerTick": 0.5,
+    "experienceDrop": 100,
+    "spawnPillarOnDeath": true,
+    "anvilAttackExplosionStrength": 4.0
   },
-  gauntletConfig: {
-    health: 900.0,
-    armor: 8.0,
-    attack: 16.0,
-    idleHealingPerTick: 0.5,
-    experienceDrop: 100,
-    spawnAncientDebrisOnDeath: true,
-    energizedPunchExplosionSize: 4.5,
-    normalPunchExplosionMultiplier: 1.5,
+  "gauntletConfig": {
+    "health": 900.0,
+    "armor": 8.0,
+    "attack": 16.0,
+    "idleHealingPerTick": 0.5,
+    "experienceDrop": 100,
+    "spawnAncientDebrisOnDeath": true,
+    "energizedPunchExplosionSize": 4.5,
+    "normalPunchExplosionMultiplier": 1.5
   },
-  voidBlossomConfig: {
-    health: 1250.0,
-    armor: 10.0,
-    attack: 30.0,
-    idleHealingPerTick: 0.5,
-    experienceDrop: 100,
+  "voidBlossomConfig": {
+    "health": 1250.0,
+    "armor": 10.0,
+    "attack": 30.0,
+    "idleHealingPerTick": 0.5,
+    "experienceDrop": 100
   },
-  generalConfig: {
-    tableOfElevationRadius: 3,
-  },
+  "generalConfig": {
+    "tableOfElevationRadius": 3
+  }
 }

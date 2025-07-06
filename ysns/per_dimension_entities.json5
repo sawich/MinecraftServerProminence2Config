@@ -19,13 +19,13 @@
   // Example: "!minecraft:.*" will disable all entities from minecraft. (NOT RECOMMENDED, JUST AN EXAMPLE)
   //
   // Regex works on both entity and dimension entries.
-  dimensions: [
+  "dimensions": [
     {
-      entityId: "minecraft:zombie",
-      dimension: "minecraft:overworld",
-      spawn_chance: 1.0,
-    },
+      "entityId": "minecraft:zombie",
+      "dimension": "minecraft:overworld",
+      "spawn_chance": 1.0
+    }
   ],
   // Don't touch this!
-  CONFIG_VERSION: 1,
+  "CONFIG_VERSION": 1
 }

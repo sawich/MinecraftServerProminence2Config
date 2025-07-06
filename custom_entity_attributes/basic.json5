@@ -26,56 +26,56 @@
   //   MULTIPLY_BASE  :   Multiplies the base value by the value.
   //   MULTIPLY_TOTAL :   Multiplies the total value by the value.
   // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  modifiers: [
+  "modifiers": [
     {
-      entity_regex: "minecells:conjuntivius",
-      apply_chance: 100.0,
-      attributes: [
+      "entity_regex": "minecells:conjuntivius",
+      "apply_chance": 100.0,
+      "attributes": [
         {
-          attribute: "minecraft:generic.attack_damage",
-          value: 5.0,
-          operation: "ADDITION",
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 5.0,
+          "operation": "ADDITION"
         },
         {
-          attribute: "minecraft:generic.max_health",
-          value: 3.5,
-          operation: "MULTIPLY_BASE",
-        },
-      ],
+          "attribute": "minecraft:generic.max_health",
+          "value": 3.5,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
     },
     {
-      entity_regex: "adventurez:blackstone_golem",
-      apply_chance: 100.0,
-      attributes: [
+      "entity_regex": "adventurez:blackstone_golem",
+      "apply_chance": 100.0,
+      "attributes": [
         {
-          attribute: "minecraft:generic.attack_damage",
-          value: 4.0,
-          operation: "ADDITION",
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 4.0,
+          "operation": "ADDITION"
         },
         {
-          attribute: "minecraft:generic.max_health",
-          value: 3,
-          operation: "MULTIPLY_BASE",
-        },
-      ],
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
     },
     {
-      entity_regex: "archon:null",
-      apply_chance: 100.0,
-      attributes: [
+      "entity_regex": "archon:null",
+      "apply_chance": 100.0,
+      "attributes": [
         {
-          attribute: "minecraft:generic.attack_damage",
-          value: 4.0,
-          operation: "ADDITION",
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 4.0,
+          "operation": "ADDITION"
         },
         {
-          attribute: "minecraft:generic.max_health",
-          value: 0.5,
-          operation: "MULTIPLY_BASE",
-        },
-      ],
-    },
+          "attribute": "minecraft:generic.max_health",
+          "value": 0.5,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    }
   ],
   // Don't touch this!
-  CONFIG_VERSION: 1,
+  "CONFIG_VERSION": 1
 }

@@ -21,21 +21,21 @@
   //
   // The default config adds makes the player get poison and wither when fighting example_entity.
   //
-  entities: [
+  "entities": [
     {
-      entity_regex: ".*",
-      effects_to_apply: [
+      "entity_regex": ".*",
+      "effects_to_apply": [
         {
-          effect_id: "minecells:disarmed",
-          duration: 200,
-          amplifier: 0,
-          ambient: true,
-          show_particles: true,
-        },
+          "effect_id": "minecells:disarmed",
+          "duration": 200,
+          "amplifier": 0,
+          "ambient": true,
+          "show_particles": true
+        }
       ],
-      minimum_hp: 300,
-      only_on_player_hit: false,
-      apply_to_entity_instead_of_player: false,
-    },
-  ],
+      "minimum_hp": 300,
+      "only_on_player_hit": false,
+      "apply_to_entity_instead_of_player": false
+    }
+  ]
 }

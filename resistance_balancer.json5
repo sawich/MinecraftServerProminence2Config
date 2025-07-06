@@ -8,7 +8,7 @@
   //
   // --------------------------------------------------------------------------------------------------------
   // Do not touch this
-  configVersion: 1,
+  "configVersion": 1,
   // --------------------------------------------------------------------------------------------------------
   //                                             Custom Formula
   //
@@ -22,11 +22,11 @@
   //
   //  You can define a more complex formula that fits for you, as this was designed for the Prominence modpack.
   // --------------------------------------------------------------------------------------------------------
-  enable_custom_formula: false,
-  custom_formula: "min(RESISTANCE / 4.0, 1.0) * 0.20",
+  "enable_custom_formula": false,
+  "custom_formula": "min(RESISTANCE / 4.0, 1.0) * 0.20",
   // --------------------------------------------------------------------------------------------------------
   //
   // If custom formula is disabled, it will instead use a simpler logic, simply reducing the damage by a percentage.
   //  By default this is 0.05, meaning Resistance would reduce 5% of the damage dealt per level. So at Resistance IV, it would reduce 20% of the damage.
-  percentile_reduction_fallback: 0.05,
+  "percentile_reduction_fallback": 0.05
 }

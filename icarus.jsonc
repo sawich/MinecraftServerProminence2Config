@@ -18,6 +18,6 @@
   // Type: Float
   "flying_target_radius": 0.25,
   "client": {
-    "can_loop_de_loop": true,
-  },
+    "can_loop_de_loop": true
+  }
 }

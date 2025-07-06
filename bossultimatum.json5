@@ -18,41 +18,41 @@
   //    - difficulty: A list of difficulties that the ultimatum will be applied to. The difficulties are: easy, normal, hard. Hardcore is technically hard too, but in hardcore players will die permanently so it's a bit redundant.
   //    - remove_boss_instead_of_healing: If true, the boss will be removed instead of healing, so it'd completely disappear, forcing the player to resummon or look for another boss.
   // This config belongs to the P r o m i n e n c e I I m o d p a c k. If found in another pack, please report it to CurseForge/Modrinth staff as it is an i l l e g a l r e u p l o a d.
-  ultimatums: [
+  "ultimatums": [
     {
-      entity_regex: "(?!(minecraft:player)).*",
-      direct_kill: true,
-      indirect_radius: 0,
-      minimum_hp: 350,
-      healing_events: [
+      "entity_regex": "(?!(minecraft:player)).*",
+      "direct_kill": true,
+      "indirect_radius": 0,
+      "minimum_hp": 350,
+      "healing_events": [
         {
-          health_gain_per_death: 0.0,
-          ultimatum_death_count: 3,
-          ultimatum_heals_maxhp: true,
-          ultimatum_death_healing: 0.25,
-          require_difficulty: true,
-          difficulty: ["normal"],
-          remove_boss_instead_of_healing: false,
+          "health_gain_per_death": 0.0,
+          "ultimatum_death_count": 3,
+          "ultimatum_heals_maxhp": true,
+          "ultimatum_death_healing": 0.25,
+          "require_difficulty": true,
+          "difficulty": ["normal"],
+          "remove_boss_instead_of_healing": false
         },
         {
-          health_gain_per_death: 0.0,
-          ultimatum_death_count: 0,
-          ultimatum_heals_maxhp: true,
-          ultimatum_death_healing: 0.25,
-          require_difficulty: true,
-          difficulty: ["hard"],
-          remove_boss_instead_of_healing: false,
+          "health_gain_per_death": 0.0,
+          "ultimatum_death_count": 0,
+          "ultimatum_heals_maxhp": true,
+          "ultimatum_death_healing": 0.25,
+          "require_difficulty": true,
+          "difficulty": ["hard"],
+          "remove_boss_instead_of_healing": false
         },
         {
-          health_gain_per_death: 0.0,
-          ultimatum_death_count: 3,
-          ultimatum_heals_maxhp: true,
-          ultimatum_death_healing: 1.0,
-          require_difficulty: true,
-          difficulty: ["hard"],
-          remove_boss_instead_of_healing: false,
-        },
-      ],
-    },
-  ],
+          "health_gain_per_death": 0.0,
+          "ultimatum_death_count": 3,
+          "ultimatum_heals_maxhp": true,
+          "ultimatum_death_healing": 1.0,
+          "require_difficulty": true,
+          "difficulty": ["hard"],
+          "remove_boss_instead_of_healing": false
+        }
+      ]
+    }
+  ]
 }

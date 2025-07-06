@@ -12,7 +12,7 @@
   // Format: "!{Regular expression}"
   // Example: "!minecraft:.*" will disable all entities from minecraft. (NOT RECOMMENDED, JUST AN EXAMPLE)
   //
-  disabled: ["soulsweapons:evil_forlorn"],
+  "disabled": ["soulsweapons:evil_forlorn"],
   // Don't touch this!
-  CONFIG_VERSION: 1,
+  "CONFIG_VERSION": 1
 }

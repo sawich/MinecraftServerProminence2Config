@@ -11,11 +11,11 @@
   // Whether or not to enable the welcome screen.
   // This screen will appear the first time the player joins a world after installing the modpack,
   // you can edit it and add important info, links to discord or github issues, etc.
-  welcome_screen_enabled: true,
+  "welcome_screen_enabled": true,
   // Whether or not to enable the update screen.
   // This screen will appear every time the user updates the modpack, you can edit it to add a showcase of
   // new important features, important bug fixes, etc.
   //
   // Requires BCC to be installed! https://modrinth.com/mod/better-compatibility-checker
-  update_screen_enabled: false,
+  "update_screen_enabled": false
 }

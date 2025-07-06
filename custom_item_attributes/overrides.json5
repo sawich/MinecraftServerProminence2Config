@@ -23,312 +23,312 @@
   // ------------------------------------------------------------------------------------------------------------------------------
   // The example showcases a config to add +10 attack damage and +20% attack speed to an "example_item", on both the main hand and off hand.
   // Each of the attributes are overrides for modifiers of the same attribute type, depending on each slot correspondingly.
-  items: [
+  "items": [
     {
-      item: "minecells:cursed_sword",
-      affected_slots: ["mainhand"],
-      attribute_overrides: [
+      "item": "minecells:cursed_sword",
+      "affected_slots": ["mainhand"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: -0.8,
-          operation: "MULTIPLY_TOTAL",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": -0.8,
+          "operation": "MULTIPLY_TOTAL"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "spellbladenext:monkeystaff",
-      affected_slots: ["mainhand"],
-      attribute_overrides: [
+      "item": "spellbladenext:monkeystaff",
+      "affected_slots": ["mainhand"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.attack_speed",
-          value: -2,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.attack_speed",
+          "value": -2,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "soulsweapons:crucible_sword",
-      affected_slots: ["mainhand", "offhand"],
-      attribute_overrides: [
+      "item": "soulsweapons:crucible_sword",
+      "affected_slots": ["mainhand", "offhand"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: -0.45,
-          operation: "MULTIPLY_TOTAL",
+          "attribute": "minecraft:generic.max_health",
+          "value": -0.45,
+          "operation": "MULTIPLY_TOTAL"
         },
         {
-          attribute: "minecraft:generic.armor",
-          value: -1,
-          operation: "MULTIPLY_TOTAL",
-        },
+          "attribute": "minecraft:generic.armor",
+          "value": -1,
+          "operation": "MULTIPLY_TOTAL"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "mcda:heros_armor_helmet",
-      affected_slots: ["head"],
-      attribute_overrides: [
+      "item": "mcda:heros_armor_helmet",
+      "affected_slots": ["head"],
+      "attribute_overrides": [
         {
-          attribute: "spell_power:lightning",
-          value: 0.15,
-          operation: "MULTIPLY_BASE",
-        },
+          "attribute": "spell_power:lightning",
+          "value": 0.15,
+          "operation": "MULTIPLY_BASE"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "mcda:heros_armor_chestplate",
-      affected_slots: ["chest"],
-      attribute_overrides: [
+      "item": "mcda:heros_armor_chestplate",
+      "affected_slots": ["chest"],
+      "attribute_overrides": [
         {
-          attribute: "spell_power:lightning",
-          value: 0.15,
-          operation: "MULTIPLY_BASE",
-        },
+          "attribute": "spell_power:lightning",
+          "value": 0.15,
+          "operation": "MULTIPLY_BASE"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "mcda:heros_armor_leggings",
-      affected_slots: ["legs"],
-      attribute_overrides: [
+      "item": "mcda:heros_armor_leggings",
+      "affected_slots": ["legs"],
+      "attribute_overrides": [
         {
-          attribute: "spell_power:lightning",
-          value: 0.15,
-          operation: "MULTIPLY_BASE",
-        },
+          "attribute": "spell_power:lightning",
+          "value": 0.15,
+          "operation": "MULTIPLY_BASE"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "mcda:heros_armor_boots",
-      affected_slots: ["feet"],
-      attribute_overrides: [
+      "item": "mcda:heros_armor_boots",
+      "affected_slots": ["feet"],
+      "attribute_overrides": [
         {
-          attribute: "spell_power:lightning",
-          value: 0.15,
-          operation: "MULTIPLY_BASE",
-        },
+          "attribute": "spell_power:lightning",
+          "value": 0.15,
+          "operation": "MULTIPLY_BASE"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "mythicupgrades:sapphire_helmet",
-      affected_slots: ["head"],
-      attribute_overrides: [
+      "item": "mythicupgrades:sapphire_helmet",
+      "affected_slots": ["head"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 20,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 20,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "mythicupgrades:sapphire_chestplate",
-      affected_slots: ["chest"],
-      attribute_overrides: [
+      "item": "mythicupgrades:sapphire_chestplate",
+      "affected_slots": ["chest"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 20,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 20,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "mythicupgrades:sapphire_leggings",
-      affected_slots: ["legs"],
-      attribute_overrides: [
+      "item": "mythicupgrades:sapphire_leggings",
+      "affected_slots": ["legs"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 20,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 20,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "mythicupgrades:sapphire_boots",
-      affected_slots: ["feet"],
-      attribute_overrides: [
+      "item": "mythicupgrades:sapphire_boots",
+      "affected_slots": ["feet"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 20,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 20,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "deeperdarker:warden_helmet",
-      affected_slots: ["head"],
-      attribute_overrides: [
+      "item": "deeperdarker:warden_helmet",
+      "affected_slots": ["head"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 15,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 15,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "deeperdarker:warden_chestplate",
-      affected_slots: ["chest"],
-      attribute_overrides: [
+      "item": "deeperdarker:warden_chestplate",
+      "affected_slots": ["chest"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 15,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 15,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "deeperdarker:warden_leggings",
-      affected_slots: ["legs"],
-      attribute_overrides: [
+      "item": "deeperdarker:warden_leggings",
+      "affected_slots": ["legs"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 15,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 15,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "deeperdarker:warden_boots",
-      affected_slots: ["feet"],
-      attribute_overrides: [
+      "item": "deeperdarker:warden_boots",
+      "affected_slots": ["feet"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 15,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 15,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "death_knights:crimson_guard_armor_head",
-      affected_slots: ["head"],
-      attribute_overrides: [
+      "item": "death_knights:crimson_guard_armor_head",
+      "affected_slots": ["head"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 18,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 18,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "death_knights:crimson_guard_armor_chest",
-      affected_slots: ["chest"],
-      attribute_overrides: [
+      "item": "death_knights:crimson_guard_armor_chest",
+      "affected_slots": ["chest"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 18,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 18,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "death_knights:crimson_guard_armor_legs",
-      affected_slots: ["legs"],
-      attribute_overrides: [
+      "item": "death_knights:crimson_guard_armor_legs",
+      "affected_slots": ["legs"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 18,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 18,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "death_knights:crimson_guard_armor_feet",
-      affected_slots: ["feet"],
-      attribute_overrides: [
+      "item": "death_knights:crimson_guard_armor_feet",
+      "affected_slots": ["feet"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 18,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 18,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "death_knights:crimson_knight_armor_head",
-      affected_slots: ["head"],
-      attribute_overrides: [
+      "item": "death_knights:crimson_knight_armor_head",
+      "affected_slots": ["head"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 16,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 16,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "death_knights:crimson_knight_armor_chest",
-      affected_slots: ["chest"],
-      attribute_overrides: [
+      "item": "death_knights:crimson_knight_armor_chest",
+      "affected_slots": ["chest"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 16,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 16,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "death_knights:crimson_knight_armor_legs",
-      affected_slots: ["legs"],
-      attribute_overrides: [
+      "item": "death_knights:crimson_knight_armor_legs",
+      "affected_slots": ["legs"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 16,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 16,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
+      "unbreakable": false,
+      "force_unbreakable": false
     },
     {
-      item: "death_knights:crimson_knight_armor_feet",
-      affected_slots: ["feet"],
-      attribute_overrides: [
+      "item": "death_knights:crimson_knight_armor_feet",
+      "affected_slots": ["feet"],
+      "attribute_overrides": [
         {
-          attribute: "minecraft:generic.max_health",
-          value: 16,
-          operation: "ADDITION",
-        },
+          "attribute": "minecraft:generic.max_health",
+          "value": 16,
+          "operation": "ADDITION"
+        }
       ],
-      unbreakable: false,
-      force_unbreakable: false,
-    },
+      "unbreakable": false,
+      "force_unbreakable": false
+    }
   ],
   // Don't touch this!
-  CONFIG_VERSION: 2,
+  "CONFIG_VERSION": 2
 }

@@ -9,9 +9,9 @@ to make editing this file much easier.
 */
 {
   // Generates all block states for all blocks in the registry.
-  generate_all_known_states: false,
+  "generate_all_known_states": false,
   // Whether blocks are replaced in existing chunks.
-  retro_gen: true,
+  "retro_gen": true,
   /* A map of states that specifies what the "old" block state is and what its "new" block state is.
 	   See "known_states" folder("generate_all_known_states" must be set to true in this config) to see all known block states available for all blocks available in the registry.
 	   Example:
@@ -76,7 +76,7 @@ to make editing this file much easier.
 	    	}
 	    ]
 	*/
-  state_swapper: [],
+  "state_swapper": [],
   /* A map of blocks that specifies what the "old" block is and what its "new" block is.
 	   Example:
 	   	"swapper": {
@@ -84,7 +84,7 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-  swapper: {
+  "swapper": {
     "modern_industrialization:tin_ore": "techreborn:tin_ore",
     "modern_industrialization:deepslate_tin_ore": "techreborn:deepslate_tin_ore",
     "modern_industrialization:lead_ore": "techreborn:lead_ore",
@@ -111,6 +111,6 @@ to make editing this file much easier.
     "powah:energy_cable_blazing": "indrev:cable_mk2",
     "powah:energy_cable_hardened": "indrev:cable_mk2",
     "powah:energy_cable_basic": "indrev:cable_mk1",
-    "powah:energy_cable_starter": "indrev:cable_mk1",
-  },
+    "powah:energy_cable_starter": "indrev:cable_mk1"
+  }
 }

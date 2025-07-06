@@ -45,7 +45,7 @@
     "spawnMartianRaptors": true,
     "spawnMoglers": true,
     "spawnSulfurCreepers": true,
-    "spawnLunarianWanderingTrader": true,
+    "spawnLunarianWanderingTrader": true
   },
   "spaceSuit": {
     // Type: Long
@@ -76,7 +76,7 @@
     "jetSuitArmorToughness": 5,
     "spawnJetSuitParticles": true,
     // Custom hand rendering may interfere with Shaders
-    "renderCustomFirstPersonHand": true,
+    "renderCustomFirstPersonHand": true
   },
   "vehicles": {
     /*
@@ -97,7 +97,7 @@
       // Type: Double
       "boosterThreshold": -0.1,
       // Type: Double
-      "boosterSpeed": 0.1,
+      "boosterSpeed": 0.1
     },
     "rover": {
       "explodeRoverInLava": true,
@@ -114,7 +114,7 @@
       // Type: Float
       "maxSpeed": 0.3,
       // Type: Long
-      "tankSize": 243000,
+      "tankSize": 243000
     },
     "rocket": {
       // Type: Integer
@@ -132,20 +132,20 @@
       "fuelLaunchCost": 243000,
       // Type: Long
       "efficientFuelLaunchCost": 81000,
-      "takeDamageInRocket": true,
-    },
+      "takeDamageInRocket": true
+    }
   },
   "coalGenerator": {
     // Type: Long
     "maxEnergy": 9000,
     // Type: Long
-    "energyPerTick": 10,
+    "energyPerTick": 10
   },
   "compressor": {
     // Type: Long
     "maxEnergy": 9000,
     // Type: Long
-    "energyPerTick": 10,
+    "energyPerTick": 10
   },
   "fuelRefinery": {
     // Type: Long
@@ -153,7 +153,7 @@
     // Type: Long
     "energyPerTick": 30,
     // Type: Long
-    "tankSize": 243000,
+    "tankSize": 243000
   },
   "oxygenLoader": {
     // Type: Long
@@ -161,7 +161,7 @@
     // Type: Long
     "energyPerTick": 10,
     // Type: Long
-    "tankSize": 243000,
+    "tankSize": 243000
   },
   "oxygenDistributor": {
     // Type: Long
@@ -189,13 +189,13 @@
      * Increases the energy requirements as the distributor covers more blocks.
      * Type: Double
      */
-    "energyMultiplier": 3.0,
+    "energyMultiplier": 3.0
   },
   "solarPanel": {
     // Type: Long
     "maxEnergy": 18000,
     // Type: Double
-    "energyMultiplier": 1.0,
+    "energyMultiplier": 1.0
   },
   "waterPump": {
     // Type: Long
@@ -206,13 +206,13 @@
     "tankSize": 486000,
     // Type: Long
     "transferPerTick": 8100,
-    "deleteWaterBelowWaterPump": true,
+    "deleteWaterBelowWaterPump": true
   },
   "energizer": {
     // Type: Long
     "maxEnergy": 2000000,
     // Type: Long
-    "energyPerTick": 600,
+    "energyPerTick": 600
   },
   "cryoFreezer": {
     // Type: Long
@@ -220,6 +220,6 @@
     // Type: Long
     "energyPerTick": 18,
     // Type: Long
-    "tankSize": 243000,
-  },
+    "tankSize": 243000
+  }
 }

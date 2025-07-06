@@ -1,134 +1,134 @@
 {
-  backpackSettings: {
-    leather: {
+  "backpackSettings": {
+    "leather": {
       // Number of inventory slots for the tier
-      inventorySlotCount: 27,
+      "inventorySlotCount": 27,
       // Number of upgrade slots for the tier
-      upgradeSlotCount: 2,
+      "upgradeSlotCount": 2,
       // Number of tool slots for the tier
-      toolSlotCount: 2,
+      "toolSlotCount": 2,
       // Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
-      tankCapacityPerRow: 81000,
+      "tankCapacityPerRow": 81000
     },
-    iron: {
+    "iron": {
       // Number of inventory slots for the tier
-      inventorySlotCount: 45,
+      "inventorySlotCount": 45,
       // Number of upgrade slots for the tier
-      upgradeSlotCount: 3,
+      "upgradeSlotCount": 3,
       // Number of tool slots for the tier
-      toolSlotCount: 3,
+      "toolSlotCount": 3,
       // Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
-      tankCapacityPerRow: 81000,
+      "tankCapacityPerRow": 81000
     },
-    gold: {
+    "gold": {
       // Number of inventory slots for the tier
-      inventorySlotCount: 63,
+      "inventorySlotCount": 63,
       // Number of upgrade slots for the tier
-      upgradeSlotCount: 4,
+      "upgradeSlotCount": 4,
       // Number of tool slots for the tier
-      toolSlotCount: 4,
+      "toolSlotCount": 4,
       // Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
-      tankCapacityPerRow: 81000,
+      "tankCapacityPerRow": 81000
     },
-    diamond: {
+    "diamond": {
       // Number of inventory slots for the tier
-      inventorySlotCount: 81,
+      "inventorySlotCount": 81,
       // Number of upgrade slots for the tier
-      upgradeSlotCount: 5,
+      "upgradeSlotCount": 5,
       // Number of tool slots for the tier
-      toolSlotCount: 5,
+      "toolSlotCount": 5,
       // Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
-      tankCapacityPerRow: 81000,
+      "tankCapacityPerRow": 81000
     },
-    netherite: {
+    "netherite": {
       // Number of inventory slots for the tier
-      inventorySlotCount: 99,
+      "inventorySlotCount": 99,
       // Number of upgrade slots for the tier
-      upgradeSlotCount: 6,
+      "upgradeSlotCount": 6,
       // Number of tool slots for the tier
-      toolSlotCount: 6,
+      "toolSlotCount": 6,
       // Tank capacity per row of backpack storage, 81000 equals 1 Bucket (Leather backpack 3 rows of 9 slots = 3 * 81000
-      tankCapacityPerRow: 81000,
+      "tankCapacityPerRow": 81000
     },
     // Enables equipping the backpack on right-click from the ground (Disabled if Trinkets/Accessories Integration is enabled)
-    rightClickEquip: true,
+    "rightClickEquip": true,
     // Enables unequipping the backpack on right-click on the ground with empty hand (Disabled if Trinkets/Accessories Integration is enabled)
-    rightClickUnequip: false,
+    "rightClickUnequip": false,
     // Allows to use only equipped backpack
-    allowOnlyEquippedBackpack: false,
+    "allowOnlyEquippedBackpack": false,
     // Allows opening the backpack by pressing a keybind while hovering over the slot with backpack in the player's inventory
-    allowOpeningFromSlot: false,
+    "allowOpeningFromSlot": false,
     // Prevents more than one player from accessing the backpack at the same time when it's placed on the ground
-    preventMultiplePlayersAccess: false,
+    "preventMultiplePlayersAccess": false,
     // Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
-    invulnerableBackpack: true,
+    "invulnerableBackpack": true,
     // List of items that can be put in tool slots (Use registry names, for example: minecraft:apple, minecraft:flint)
-    toolSlotsAcceptableItems: [],
+    "toolSlotsAcceptableItems": [],
     // List of items that can't be put in backpack inventory (Use registry names, for example: minecraft:apple, minecraft:flint)
-    blacklistedItems: [],
+    "blacklistedItems": [],
     // Tool slots accept any item
-    toolSlotsAcceptEverything: false,
+    "toolSlotsAcceptEverything": false,
     // Allows putting shulker boxes and other items with inventory in backpack
-    allowShulkerBoxes: false,
+    "allowShulkerBoxes": false,
     // Prevents backpack disappearing in void, spawns floating backpack above minimum Y when player dies in void
-    voidProtection: true,
+    "voidProtection": true,
     // Places backpack at place where player died
-    backpackDeathPlace: true,
+    "backpackDeathPlace": true,
     // Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
-    backpackForceDeathPlace: false,
+    "backpackForceDeathPlace": false,
     // Allows sleeping in a sleeping bag without the need to unequip and place the backpack on the ground
-    quickSleepingBag: true,
-    enableSleepingBagSpawnPoint: false,
+    "quickSleepingBag": true,
+    "enableSleepingBagSpawnPoint": false,
     // Backpacks can only be equipped in the Trinkets/Accessories 'Back' slot, provided those mods are installed. If set to false, backpacks can only be equipped by clicking the button in the Backpack GUI. This setting can be changed without unequipping the backpack. An already equipped backpack will not disappear and can be retrieved from the player's inventory.
-    trinketsIntegration: false,
+    "trinketsIntegration": false
   },
-  backpackUpgrades: {
-    enableTanksUpgrade: true,
-    enableCraftingUpgrade: true,
-    enableFurnaceUpgrade: true,
-    enableSmokerUpgrade: true,
-    enableBlastFurnaceUpgrade: true,
-    enableJukeboxUpgrade: true,
-    pickupUpgradeSettings: {
-      enableUpgrade: true,
-      filterSlotCount: 9,
+  "backpackUpgrades": {
+    "enableTanksUpgrade": true,
+    "enableCraftingUpgrade": true,
+    "enableFurnaceUpgrade": true,
+    "enableSmokerUpgrade": true,
+    "enableBlastFurnaceUpgrade": true,
+    "enableJukeboxUpgrade": true,
+    "pickupUpgradeSettings": {
+      "enableUpgrade": true,
+      "filterSlotCount": 9
     },
-    magnetUpgradeSettings: {
-      enableUpgrade: true,
-      filterSlotCount: 9,
-      pullRange: 5,
-      tickRate: 10,
+    "magnetUpgradeSettings": {
+      "enableUpgrade": true,
+      "filterSlotCount": 9,
+      "pullRange": 5,
+      "tickRate": 10
     },
-    feedingUpgradeSettings: {
-      enableUpgrade: true,
-      filterSlotCount: 9,
-      tickRate: 100,
+    "feedingUpgradeSettings": {
+      "enableUpgrade": true,
+      "filterSlotCount": 9,
+      "tickRate": 100
     },
-    voidUpgradeSettings: {
-      enableUpgrade: true,
-      filterSlotCount: 9,
-    },
+    "voidUpgradeSettings": {
+      "enableUpgrade": true,
+      "filterSlotCount": 9
+    }
   },
-  world: {
+  "world": {
     // Enables backpacks spawning in loot chests
-    enableLoot: true,
+    "enableLoot": true,
     // Enables chance to spawn Zombie, Skeleton, Wither Skeleton, Piglin or Enderman with random backpack equipped
-    spawnEntitiesWithBackpack: true,
+    "spawnEntitiesWithBackpack": true,
     // List of overworld entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
-    possibleOverworldEntityTypes: [
+    "possibleOverworldEntityTypes": [
       "minecraft:zombie",
       "minecraft:skeleton",
-      "minecraft:enderman",
+      "minecraft:enderman"
     ],
     // List of nether entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
-    possibleNetherEntityTypes: [
+    "possibleNetherEntityTypes": [
       "minecraft:wither_skeleton",
-      "minecraft:piglin",
+      "minecraft:piglin"
     ],
     // Defines spawn chance of entity with a backpack
-    chance: 0.004999999888241291,
+    "chance": 0.004999999888241291,
     // List of backpacks that can spawn on overworld mobs
-    overworldBackpacks: [
+    "overworldBackpacks": [
       "travelersbackpack:standard",
       "travelersbackpack:diamond",
       "travelersbackpack:gold",
@@ -159,26 +159,26 @@
       "travelersbackpack:pig",
       "travelersbackpack:sheep",
       "travelersbackpack:chicken",
-      "travelersbackpack:squid",
+      "travelersbackpack:squid"
     ],
     // List of backpacks that can spawn on nether mobs
-    netherBackpacks: [
+    "netherBackpacks": [
       "travelersbackpack:quartz",
       "travelersbackpack:nether",
       "travelersbackpack:blaze",
       "travelersbackpack:ghast",
       "travelersbackpack:magma_cube",
-      "travelersbackpack:wither",
+      "travelersbackpack:wither"
     ],
     // Enables trade for Villager Backpack in Librarian villager trades
-    enableVillagerTrade: true,
+    "enableVillagerTrade": true
   },
-  backpackAbilities: {
-    enableBackpackAbilities: true,
+  "backpackAbilities": {
+    "enableBackpackAbilities": true,
     // Newly crafted backpacks will have ability enabled by default
-    forceAbilityEnabled: false,
+    "forceAbilityEnabled": false,
     // List of backpacks that are allowed to have an ability. DO NOT ADD anything to this list, because the game will crash, remove entries if backpack should not have ability
-    allowedAbilities: [
+    "allowedAbilities": [
       "travelersbackpack:netherite",
       "travelersbackpack:diamond",
       "travelersbackpack:gold",
@@ -205,59 +205,59 @@
       "travelersbackpack:ocelot",
       "travelersbackpack:cow",
       "travelersbackpack:chicken",
-      "travelersbackpack:squid",
+      "travelersbackpack:squid"
     ],
     /* List of effect abilities associated with backpacks, you can modify this list as you wish. Different effects can be added to different backpacks. 
 		    Formatting: "<backpack_registry_name>; <status_effect_registry_name>; <min_duration_ticks>; <max_duration_ticks>; <amplifier>"
 		*/
-    backpackEffects: [
+    "backpackEffects": [
       "travelersbackpack:bat; minecraft:night_vision; 260; 300; 0",
       "travelersbackpack:magma_cube; minecraft:fire_resistance; 260; 300; 0",
       "travelersbackpack:squid; minecraft:water_breathing; 260; 300; 0",
       "travelersbackpack:dragon; minecraft:regeneration; 260; 300; 0",
       "travelersbackpack:dragon; minecraft:strength; 250; 290; 0",
-      "travelersbackpack:quartz; minecraft:haste; 260; 300; 0",
+      "travelersbackpack:quartz; minecraft:haste; 260; 300; 0"
     ],
     /* List of cooldowns that are being applied after ability usage, the backpacks on the list are all that currently have cooldowns, adding additional backpack will not give it cooldown. 
 		    Formatting: "<backpack_registry_name>; <min_possible_cooldown_seconds>; <max_possible_cooldown_seconds>"
 		*/
-    cooldowns: [
+    "cooldowns": [
       "travelersbackpack:creeper; 1200; 1800",
       "travelersbackpack:cow; 480; 540",
       "travelersbackpack:chicken; 360; 600",
       "travelersbackpack:cake; 360; 480",
-      "travelersbackpack:melon; 120; 480",
-    ],
+      "travelersbackpack:melon; 120; 480"
+    ]
   },
-  slownessDebuff: {
+  "slownessDebuff": {
     // Player gets slowness effect, if carries too many backpacks in inventory
-    tooManyBackpacksSlowness: true,
+    "tooManyBackpacksSlowness": true,
     // Maximum number of backpacks, which can be carried in inventory, without slowness effect
-    maxNumberOfBackpacks: 3,
-    slownessPerExcessedBackpack: 1,
+    "maxNumberOfBackpacks": 3,
+    "slownessPerExcessedBackpack": 1
   },
-  client: {
-    overlay: {
+  "client": {
+    "overlay": {
       // Enables tanks and tool slots overlay, while backpack is worn
-      enableOverlay: true,
+      "enableOverlay": true,
       // Offsets to left side
-      offsetX: 20,
+      "offsetX": 20,
       // Offsets to up
-      offsetY: 30,
+      "offsetY": 30
     },
     // Whether the backpack icon should be visible in player's inventory
-    showBackpackIconInInventory: true,
+    "showBackpackIconInInventory": true,
     // Sends a message to the player on death with backpack coordinates
-    sendBackpackCoordinatesMessage: true,
+    "sendBackpackCoordinatesMessage": true,
     // Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn
-    enableToolCycling: true,
+    "enableToolCycling": true,
     // Allows tool cycling using keybinding only (Default Z)
-    disableScrollWheel: false,
+    "disableScrollWheel": false,
     // Enables tip, how to obtain a backpack, if there's no crafting recipe for it
-    obtainTips: true,
+    "obtainTips": true,
     // Render tools in tool slots on the backpack, while worn
-    renderTools: true,
+    "renderTools": true,
     // Only for supporters, option to show/hide the Supporter Star Badge. If you want to receive the Supporter Star Badge, visit my Ko-fi page :)! - https://ko-fi.com/tiviacz1337
-    showSupporterBadge: true,
-  },
+    "showSupporterBadge": true
+  }
 }
