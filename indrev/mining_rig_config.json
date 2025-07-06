@@ -10,6 +10,8 @@
     "c:lead_ores": 3,
     "c:silver_ores": 3,
     "c:tungsten_ores": 3,
-    "minecraft:emerald_ores": 4
+    "minecraft:emerald_ores": 4,
+    "c:lapis_ores": 3,
+    "c:diamond_ores": 3
   }
 }
